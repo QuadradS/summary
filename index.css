@@ -56,6 +56,21 @@ footer{
     padding: 0 20px;
     box-sizing: border-box;
 }
+.side-bar__toggle-mobile{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    fill: #2e6c40;
+    display: none;
+}
+.side-bar__toggle-mobile svg{
+    width: 40px;
+    height: 40px;
+}
+.side-bar_open{
+    left: 20px!important;
+    transition: left 0.4s;
+}
 .side-bar__header{
     position: relative;
 }
@@ -191,6 +206,17 @@ footer{
     padding: 0 30px;
     box-sizing: border-box;
 }
+.content__toggle-mobile{
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    display: none;
+}
+.content__toggle-mobile svg{
+    width: 40px;
+    height: 40px!important;
+    fill: #2c6d40;
+}
 .skils__sublist{
     position: relative;
     font-weight: 600;
@@ -236,3 +262,40 @@ sb_about - c-about
 
 
 -------------*/
+
+@media(max-width:992px){
+    .side-bar__header__surname{
+        margin: 0 20px; 
+    }
+    .side-bar {
+        max-width: 300px;
+        width: 100%;
+        border: 2px solid #2c6d40;
+        position: absolute;
+        background: #fff;
+        z-index: 2;
+        left: -400px;
+        padding: 15px;
+        transition: left 0.4s;
+    }
+    .content__toggle-mobile,
+    .side-bar__toggle-mobile{
+        display: flex;
+    }
+    .content {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .sublist__item{
+        padding-left: 0;
+    }
+    .sublist__item p {
+        max-width: 95%;
+    }
+    .content {
+        padding: 0 15px;
+    }
+}
+
