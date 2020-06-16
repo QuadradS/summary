@@ -9,7 +9,7 @@ const Skills = () => {
         <ListItem>
           <p className='block'>
             <b className='head'>
-              HTML CSS вертска
+              HTML CSS
             </b>
 
             <p>
@@ -101,26 +101,35 @@ const Skills = () => {
               <li> - Refs и DOM в реакте</li>
               <li> - Использование хуков в функционлаьных комопнентов</li>
               <li> - TypeScript / Flow для React.js</li>
-              <li> - Redux / Mobx</li>
+              <li> - Redux / Mobx / Recoil</li>
               <li> - Redux: redux, react-redux, redux-saga, reselect</li>
-              <li> - Окружение webpack, css-modules, stylus/scss</li>
+              <li> - Окружение webpack, css-modules, stylus/scss, легко соберу webpack для react / vue с нуля</li>
               <li> - Использование библиотек UI-компонент: Ant design, material UI, bootstrap</li>
               <li> - Graphql (apollo)</li>
+              <li> - Unit тестирование</li>
             </ul>
 
           </p>
         </ListItem>
 
         <ListItem>
-          <p>
-            <b>
-              Zensoft - 08.2018 - 09.2019
+          <p className={'block'}>
+            <b className={'head'}>
+              Node.js
             </b>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cupiditate debitis, deleniti distinctio
-              ea
-              eligendi fuga incidunt laudantium mollitia obcaecati officia quas ratione tempora unde vitae. Alias et
-              similique tempora.</p>
+            <p>
+              Так же очень инетерсует разработка на Node.js, уже работал в боевых проектах на Node.js написани api на
+              микросерверной архитектуре, так же был опыт создания разовых проектов в которых приобрел опыт:
+            </p>
+
+            <ul>
+              <li> - Работы с микросерверсной архитектурой</li>
+              <li> - Express.js</li>
+              <li> - Продумывания DTO планировка контрактов между микросервесами</li>
+              <li> - MongoDB, Postrgess</li>
+              <li> - Postrgess + TypeORM</li>
+            </ul>
 
           </p>
         </ListItem>
