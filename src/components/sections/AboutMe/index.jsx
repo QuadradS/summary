@@ -1,7 +1,7 @@
 import React from 'react'
-import {ReactComponent as UserIcon} from "../common/icons/user-icon.svg";
-import ListItem from "../ListItem";
-import ContentBlock from "../ContentBlock";
+import {ReactComponent as UserIcon} from "../../common/icons/user-icon.svg";
+import ListItem from "../../ListItem";
+import ContentBlock from "../../ContentBlock";
 
 const AboutMe = () => {
   return(

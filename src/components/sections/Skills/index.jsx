@@ -1,13 +1,13 @@
 import React from 'react'
-import {ReactComponent as MindIcon} from "../common/icons/mind-icon.svg";
-import ListItem from "../ListItem";
-import ContentBlock from "../ContentBlock";
+import {ReactComponent as MindIcon} from "../../common/icons/mind-icon.svg";
+import ListItem from "../../ListItem";
+import ContentBlock from "../../ContentBlock";
 
 const Skills = () => {
   return (
       <ContentBlock title={'Умения'} icon={<MindIcon/>}>
         <ListItem>
-          <p className='block'>
+          <div className='block'>
             <b className='head'>
               HTML CSS
             </b>
@@ -41,10 +41,11 @@ const Skills = () => {
               <li> - BEM OOCSS SMACSS</li>
             </ul>
 
-          </p>
+          </div>
         </ListItem>
+
         <ListItem>
-          <p className='block'>
+          <div className='block'>
             <b className='head'>
               JavaScript
             </b>
@@ -79,10 +80,11 @@ const Skills = () => {
               <li> - Умение и желание писать тесты</li>
             </ul>
 
-          </p>
+          </div>
         </ListItem>
+
         <ListItem>
-          <p className={'block'}>
+          <div className={'block'}>
             <b className={'head'}>
               React.js
             </b>
@@ -109,11 +111,11 @@ const Skills = () => {
               <li> - Unit тестирование</li>
             </ul>
 
-          </p>
+          </div>
         </ListItem>
 
         <ListItem>
-          <p className={'block'}>
+          <div className={'block'}>
             <b className={'head'}>
               Node.js
             </b>
@@ -131,7 +133,7 @@ const Skills = () => {
               <li> - Postrgess + TypeORM</li>
             </ul>
 
-          </p>
+          </div>
         </ListItem>
 
       </ContentBlock>
