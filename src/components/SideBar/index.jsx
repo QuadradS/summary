@@ -6,7 +6,7 @@ import './index.scss'
 const SideBar = () => {
   return (
     <div className={'sidebar'}>
-      <img className={'sidebar--user-photo'} src="/images/me.jpeg" alt=""/>
+      <img className={'sidebar--user-photo'} src="/summary/images/me.jpeg" alt=""/>
       <div className={'sidebar--info'}>
         <p className={'sidebar--name'}>Danil Sitdikov</p>
         <p className={'sidebar--prof'}>JavaScript Developer</p>
