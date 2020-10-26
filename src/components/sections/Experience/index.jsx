@@ -9,13 +9,13 @@ const Experience = () => {
         <ListItem>
           <div className='block'>
             <b className='head'>
-              Фриланс
+              Freelance
             </b>
 
             <p>
-              Начало карьеры, научился верстать в срок, общению с незнакомыми людьми, научился договариваться (не
-              всегда) о цене и сроках. В общем начало карьеры когда перестал верстать свои простые странички и начал
-              выполнять заказы.
+              The beginning of a career learned how to make up on time communicate with strangers learned to
+              negotiate (not always) about the price and timing. In general the beginning of my career when I stopped
+              layout my simple pages and started fulfill orders.
             </p>
 
             <p>
@@ -23,10 +23,11 @@ const Experience = () => {
             </p>
 
             <ul>
-              <li> - Верстал адаптивную кроссбраузерную верстку</li>
-              <li> - Использовал scss less и прочие препроцессоры</li>
-              <li> - Работал с pug-jade препроцессором для html</li>
-              <li> - Использовал JQuery и не много писал на чистом JavaScript</li>
+
+              <li> - Layout adaptive cross-browser layout</li>
+              <li> - Used scss less and other preprocessors</li>
+              <li> - Worked with pug-jade preprocessor for html</li>
+              <li> - Used JQuery and didn't write much in pure JavaScript</li>
             </ul>
 
           </div>
@@ -39,10 +40,10 @@ const Experience = () => {
             </b>
 
             <p>
-              Первый мой опыт работы на компанию, работал по часовой оплате но каждый день обязан был быть на связи 3 -
-              4 часа. Очень нравилась работа. Сайт был на wordpress, делал правки старых страниц, верстал новые и
-              натягивал на wp. Это был мой первый опыт с "Легаси кодом" и довольно большим объемом. Работал с дизайнером
-              в паре.
+              My first experience of working for a company worked on an hourly basis, but every day I had to be in touch
+              3 - 4 hours. I liked the work very much. The site was on wordpress, I made edits to old pages, made up new
+              ones and pulled on wp. This was my first experience with Legacy Code and a fairly large volume. Worked
+              with a designer paired with.
             </p>
 
             <p>
@@ -50,10 +51,11 @@ const Experience = () => {
             </p>
 
             <ul>
-              <li> - Верстал адаптивную кроссбраузерную верстку</li>
-              <li> - Верстка под wp и частичная натяжка на движок</li>
-              <li> - Работал с pug-jade препроцессором для html</li>
-              <li> - Написание скриптов на JavaScript</li>
+
+              <li> - Layout adaptive cross-browser layout</li>
+              <li> - Layout for wp and partial stretch on the engine</li>
+              <li> - Worked with pug-jade preprocessor for html</li>
+              <li> - Writing JavaScript Scripts</li>
             </ul>
 
           </div>
@@ -62,13 +64,13 @@ const Experience = () => {
         <ListItem>
           <div className='block'>
             <b className='head'>
-              Svetofor
+              Svetofor.kg
             </b>
 
             <p>
-              Первый мой опыт работы в офисе, место где я научился методологии Agile и Scrum. Работал в команде с
-              верстальщиков, ceo,back-end программистом и дизайнером. Так же поддержка старого и верстка и установка
-              верстки на cms CS-Card.
+              My first experience in the office was the place where I learned the methodology of Agile and Scrum. Worked
+              in a team with layout designers ceoback-end programmer and designer. Also support for the old and layout
+              and installation layout on cms CS-Card.
             </p>
 
             <p>
@@ -76,10 +78,10 @@ const Experience = () => {
             </p>
 
             <ul>
-              <li> - Верстал адаптивную кроссбраузерную верстку</li>
-              <li> - Верстка под OpenCard</li>
-              <li> - Написание более сложных скриптов на JavaScript</li>
-              <li> - Оптимизация страниц под SEO</li>
+              <li> - Layout adaptive cross-browser layout</li>
+              <li> - Layout for OpenCard</li>
+              <li> - Writing More Complex JavaScript Scripts</li>
+              <li> - Optimizing pages for SEO</li>
             </ul>
 
           </div>
@@ -88,12 +90,12 @@ const Experience = () => {
         <ListItem>
           <div className='block'>
             <b className='head'>
-              Grooni
+              Grooni.com
             </b>
 
             <p>
-              Верстка, установка на wp. Создание адаптивных тем и плагинов. Кастомный ajax и импорт его в wp. Место где
-              я научился pixel-perfect верстки где каждый 2-3 пикселя имеют значение.
+              Layout installation on wp. Creation of responsive themes and plugins. Custom ajax and import it into wp.
+              Place, where I've learned pixel-perfect layout where every 2-3 pixels matters.
             </p>
 
             <p>
@@ -101,9 +103,9 @@ const Experience = () => {
             </p>
 
             <ul>
-              <li> - Верстал адаптивную кроссбраузерную pixel-perfect верстку</li>
-              <li> - Верстка под WordPress</li>
-              <li> - Написание более сложных скриптов на JavaScript для запросов на бэк</li>
+              <li> - Layout responsive cross-browser pixel-perfect layout</li>
+              <li> - Layout for WordPress</li>
+              <li> - Writing more complex JavaScript scripts for backing requests</li>
             </ul>
 
           </div>
@@ -112,16 +114,14 @@ const Experience = () => {
         <ListItem>
           <div className='block'>
             <b className='head'>
-              Zensoft
+              Zensoft.io
             </b>
 
             <p>
-              Разработка сложный SPA, командная разработка. Поддержка легаси кода и написание нового проекта в команде с
-              нуля.
-              Работа в коллективе с Back-end, Front-End, Mobile разработчиками, PM - менеджером и QA. В этой компании я
-              очень хорошо прокачался как
-              JavaScript разработчик. Удалось так же по работать в проекте тимлидом в команде было 12 фронтистов и PM
-              менеджер.
+              Complex SPA development is team development. Support for legacy code and writing a new project in a team
+              with scratch. Teamwork with Back-end Front-End Mobile developers PM - manager and QA. In this company I
+              pumped very well as JavaScript developer. I also managed to work in the project as a team leader, there
+              were 12 frontists and PM in the team manager.
             </p>
 
             <p>
@@ -129,14 +129,15 @@ const Experience = () => {
             </p>
 
             <ul>
-              <li> - Написание фронт - енда на React.js</li>
-              <li> - Работал с GraphQL и JSON API</li>
-              <li> - Работал с Redux</li>
-              <li> - Разработка велась на Typescript</li>
-              <li> - По работал с Mobx</li>
-              <li> - Был очень интересный опыт работы с визуализацией данных на D3.js</li>
-              <li> - Писал API на Node.js и затем так же использовал его на фронте</li>
-              <li> - Написание тесов для бэка и для фронта</li>
+
+              <li> - Writing Front End with React.js</li>
+              <li> - Worked with GraphQL and JSON API</li>
+              <li> - Worked with Redux</li>
+              <li> - Development was carried out in Typescript</li>
+              <li> - Software worked with Mobx</li>
+              <li> - Had a very interesting experience with data visualization in D3.js</li>
+              <li> - Wrote an API in Node.js and then used it on the front as well</li>
+              <li> - Writing back and front tests</li>
             </ul>
 
           </div>
@@ -145,22 +146,24 @@ const Experience = () => {
         <ListItem>
           <div className='block'>
             <b className='head'>
-              Yurtah
+              Yurtah.com
             </b>
 
             <p>
-              Разработка фронт - енда для американского стартапа по продажи недвижимости. В этом проекте получил опыт работы
-              с SEO оптимизацией, работой кастомным SSR для React. Так же по работал с Redux-Saga.
+
+              Front - end development for an American real estate startup. Got experience in this project work SEO
+              optimized with custom SSR for React. I also worked with Redux-Saga.
             </p>
 
             <p>
-              <b>01.2018 - 09.2019</b>
+              <b>09.2019 - 11.2019</b>
             </p>
 
             <ul>
-              <li> - Оптимизация страниц для лучшей скорости загрузки</li>
-              <li> - Работал с SEO: OG метки, validation schema, seo текста и meta-tags</li>
-              <li> - Работал с Redux-Saga</li>
+
+              <li> - Optimize pages for better loading speed</li>
+              <li> - Worked with SEO: OG tags validation schema seo text and meta-tags</li>
+              <li> - Worked with Redux-Saga</li>
             </ul>
 
           </div>
@@ -173,18 +176,43 @@ const Experience = () => {
             </b>
 
             <p>
-              Разработка фронт - енда для американского стартапа по продажи недвижимости. В этом проекте получил опыть работы
-              с SEO оптимизацией, работой кастомным SSR для React. Так же по работал с Redux-Saga.
+              Front - end development for an American real estate startup. Got experience in this project work SEO
+              optimized with custom SSR for React. I also worked with Redux-Saga.
             </p>
 
             <p>
-              <b>01.2018 - 09.2019</b>
+              <b>11.2019 - 05.2020</b>
             </p>
 
             <ul>
-              <li> - Оптимизация страниц для лучшей скорости загрузки</li>
-              <li> - Работал с SEO: OG метки, validation schema, seo текста и meta-tags</li>
-              <li> - Работал с Redux-Saga</li>
+
+              <li> - Writing a big project from scratch</li>
+              <li> - Designing the architecture and structure of the application</li>
+              <li> - Code review and small team management</li>
+            </ul>
+
+          </div>
+        </ListItem>
+
+        <ListItem>
+          <div className='block'>
+            <b className='head'>
+              P2P Validator
+            </b>
+
+            <p>
+              Разработка фронта управление командой
+            </p>
+
+            <p>
+              <b>05.2020 - Current place of work</b>
+            </p>
+
+            <ul>
+
+              <li> - Разработка плагинов для работы с crm системами</li>
+              <li> - Development of plugins for working with crm systems</li>
+              <li> - Code review and small team management</li>
             </ul>
 
           </div>
