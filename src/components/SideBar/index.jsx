@@ -15,7 +15,7 @@ const SideBar = () => {
       <div className={'contact-block'}>
         <div className={'contact-block--head'}>
           <UserIcon className={'contact-block--icon'}/>
-          <h3 className={'contact-block--title'}>Обо мне</h3>
+          <h3 className={'contact-block--title'}>About me</h3>
         </div>
         <p className={'contact-block--text'}>
           I easily find common language with the team. I love being in a development atmosphere and experienced developers

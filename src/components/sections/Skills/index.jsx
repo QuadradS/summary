@@ -5,7 +5,7 @@ import ContentBlock from "../../ContentBlock";
 
 const Skills = () => {
   return (
-      <ContentBlock title={'Умения'} icon={<MindIcon/>}>
+      <ContentBlock title={'Skills'} icon={<MindIcon/>}>
         <ListItem>
           <div className='block'>
             <b className='head'>

@@ -5,7 +5,7 @@ import ContentBlock from "../../ContentBlock";
 
 const AboutMe = () => {
   return (
-      <ContentBlock title={'Обо мне'} icon={<UserIcon/>}>
+      <ContentBlock title={'About me'} icon={<UserIcon/>}>
         <ListItem>
           <p>
             I easily find common language with the team. I love being in a development atmosphere and experienced

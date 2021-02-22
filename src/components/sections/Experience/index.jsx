@@ -5,7 +5,7 @@ import ListItem from "../../ListItem";
 
 const Experience = () => {
   return (
-      <ContentBlock title={'Опыт работы'} icon={<WorkIcon/>}>
+      <ContentBlock title={'Experience'} icon={<WorkIcon/>}>
         <ListItem>
           <div className='block'>
             <b className='head'>
@@ -201,18 +201,28 @@ const Experience = () => {
             </b>
 
             <p>
-              Разработка фронта управление командой
-            </p>
-
-            <p>
-              <b>05.2020 - Current place of work</b>
+              <b>05.2020 - 10.2020</b>
             </p>
 
             <ul>
+              <li> - Creating UI Front-End with SSR</li>
+            </ul>
 
-              <li> - Разработка плагинов для работы с crm системами</li>
-              <li> - Development of plugins for working with crm systems</li>
-              <li> - Code review and small team management</li>
+          </div>
+        </ListItem>
+
+        <ListItem>
+          <div className='block'>
+            <b className='head'>
+              Sphere Inc
+            </b>
+
+            <p>
+              <b>07.2020 - Current work</b>
+            </p>
+
+            <ul>
+              <li> - Creating UI Front-End with WebRTC</li>
             </ul>
 
           </div>
