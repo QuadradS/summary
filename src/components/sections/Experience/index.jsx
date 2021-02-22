@@ -5,7 +5,7 @@ import ListItem from "../../ListItem";
 
 const Experience = () => {
   return (
-      <ContentBlock title={'Опыт работы'} icon={<WorkIcon/>}>
+      <ContentBlock title={'Work experience'} icon={<WorkIcon/>}>
         <ListItem>
           <div className='block'>
             <b className='head'>
@@ -13,9 +13,9 @@ const Experience = () => {
             </b>
 
             <p>
-              The beginning of a career learned how to make up on time communicate with strangers learned to
-              negotiate (not always) about the price and timing. In general the beginning of my career when I stopped
-              layout my simple pages and started fulfill orders.
+              В начале карьеры научился работать и вовремя отвечать незнакомым людям, научился
+              договариваться (не всегда) о цене и сроках. В общем начало моей карьеры когда я перестал
+              верстал мои простые страницы и начал выполнять заказы.
             </p>
 
             <p>
@@ -40,10 +40,10 @@ const Experience = () => {
             </b>
 
             <p>
-              My first experience of working for a company worked on an hourly basis, but every day I had to be in touch
-              3 - 4 hours. I liked the work very much. The site was on wordpress, I made edits to old pages, made up new
-              ones and pulled on wp. This was my first experience with Legacy Code and a fairly large volume. Worked
-              with a designer paired with.
+              Мой первый опыт работы в компании работал на почасовой основе, но каждый день приходилось быть на связи.
+              3-4 часа. Работа очень нравилась. Сайт был на wordpress, я редактировал старые страницы, делал новые
+              и сажал на wp. Это был мой первый опыт работы с Legacy Code и довольно большим объемом. Работал
+              в паре с дизайнером.
             </p>
 
             <p>
@@ -68,9 +68,9 @@ const Experience = () => {
             </b>
 
             <p>
-              My first experience in the office was the place where I learned the methodology of Agile and Scrum. Worked
-              in a team with layout designers ceoback-end programmer and designer. Also support for the old and layout
-              and installation layout on cms CS-Card.
+              Мой первый опыт работы в офисе - это место, где я изучил методологию Agile и Scrum. Работал
+              в команде с верстальщиками ceo, back-end программистом и дизайнером. Также поддержка старой верстки
+              и макет установки на cms CS-Card.
             </p>
 
             <p>
@@ -94,8 +94,8 @@ const Experience = () => {
             </b>
 
             <p>
-              Layout installation on wp. Creation of responsive themes and plugins. Custom ajax and import it into wp.
-              Place, where I've learned pixel-perfect layout where every 2-3 pixels matters.
+              Установка макета на wp. Создание адаптивных тем и плагинов. Пользовательский ajax и импорт его в wp.
+              Место, где я научился макету с идеальным пикселем, где каждые 2-3 пикселя имеют значение.
             </p>
 
             <p>
@@ -118,10 +118,10 @@ const Experience = () => {
             </b>
 
             <p>
-              Complex SPA development is team development. Support for legacy code and writing a new project in a team
-              with scratch. Teamwork with Back-end Front-End Mobile developers PM - manager and QA. In this company I
-              pumped very well as JavaScript developer. I also managed to work in the project as a team leader, there
-              were 12 frontists and PM in the team manager.
+              Комплексная разработка СПА - это командная разработка. Поддержка устаревшего кода и написание нового проекта в команде.
+              Совместная работа с Back-end Front-End Mobile разработчиками PM - менеджером и QA. В этой компании я
+              очень хорошо прокачался как JavaScript разработчик. Мне также удалось поработать в проекте как team lead
+              В команде было 12 фронталистов и ПМ.
             </p>
 
             <p>
@@ -150,9 +150,8 @@ const Experience = () => {
             </b>
 
             <p>
-
-              Front - end development for an American real estate startup. Got experience in this project work SEO
-              optimized with custom SSR for React. I also worked with Redux-Saga.
+              Front - end разработка для американского стартапа в сфере недвижимости. Есть опыт работы над этим проектом SEO
+              оптимизирован с помощью специального SSR для React. Я также работал с Redux-Saga.
             </p>
 
             <p>
@@ -176,8 +175,7 @@ const Experience = () => {
             </b>
 
             <p>
-              Front - end development for an American real estate startup. Got experience in this project work SEO
-              optimized with custom SSR for React. I also worked with Redux-Saga.
+              Front - end разработка проекта а так seo и мобильная оптимизация
             </p>
 
             <p>
@@ -201,19 +199,12 @@ const Experience = () => {
             </b>
 
             <p>
-              Разработка фронта управление командой
+              Разработка фронта и подключение к back-end части
             </p>
 
             <p>
               <b>05.2020 - Current place of work</b>
             </p>
-
-            <ul>
-
-              <li> - Разработка плагинов для работы с crm системами</li>
-              <li> - Development of plugins for working with crm systems</li>
-              <li> - Code review and small team management</li>
-            </ul>
 
           </div>
         </ListItem>

@@ -5,7 +5,7 @@ import ContentBlock from "../../ContentBlock";
 
 const Skills = () => {
   return (
-      <ContentBlock title={'Умения'} icon={<MindIcon/>}>
+      <ContentBlock title={'Skills'} icon={<MindIcon/>}>
         <ListItem>
           <div className='block'>
             <b className='head'>
@@ -13,27 +13,22 @@ const Skills = () => {
             </b>
 
             <p>
-              Knowledge of the semantics of tags and why to use it, since I wrote ssr for ready-made projects and had
-              experience
-              work
-              with a seo specialist. In addition to semantics, I also worked with seo, in particular:
+              Знание семантики тегов и зачем ее использовать, так как ssr я писал для готовых проектов и имел
+              опыт работы со специалистом по поисковой оптимизации. Помимо семантики, я также работал с seo, в частности:
             </p>
 
             <ul>
-              <li> - Implementing custom ssr for react</li>
-              <li> - OG: tags</li>
-              <li> - Canonical</li>
-              <li> - Validation schema</li>
-              <li> - Writing texts and tags for a seo robot</li>
+              <li> - Реализация настраиваемого ssr для реакции </li>
+              <li> - OG: теги </li>
+              <li> - Канонический </li>
+              <li> - Схема проверки </li>
+              <li> - Написание текстов и тегов для seo робота </li>
             </ul>
 
             <p>
-              I constantly typeset and am not afraid of a complex cross-browser adaptive layout; I have layout
-              experience as well as with
-              modern, convenient flexbox and grid, as well as with the dreaded float table and 'marvelous' layout.
-              Always at work
-              use
-              modern tools for working with css in particular:
+              Постоянно работаю и не боюсь сложной кроссбраузерной адаптивной верстки; У меня есть опыт
+              с современными, удобными флексбокс и grid, а также ужасный float.
+              Всегда в работе использою современные инструменты для работы с css в частности:
             </p>
 
             <ul>
@@ -54,20 +49,20 @@ const Skills = () => {
             </b>
 
             <p>
-              Extensive JavaScript experience from simple variables and loops to Proxy Promise AsyncAwait and more.
-              I wrote quite a lot in native JavaScript, so I know DOM and BOM methods well, I also actively study
-              new languages are standard and I try to use them in combat while waiting for the new operator '??',
-              classes and so on.
+              Обширный опыт работы с JavaScript, от простых переменных и циклов до Proxy Promise AsyncAwait и многого другого.
+              Я довольно много писал на нативном JavaScript, поэтому хорошо знаю методы DOM и BOM, также активно изучаю
+              новые языки являются стандартными, и я стараюсь использовать их в бою, ожидая нового оператора '??',
+              классы и так далее.
             </p>
 
             <p>
-              I also actively study algorithmic and big O notation, when there is an opportunity I try to bring
-              everything algorithmic to execution speed O(nlogn)
+              Я также активно изучаю алгоритмическую нотацию и нотацию большого О, когда есть возможность, стараюсь привнести
+              все алгоритмы для скорости выполнения O (nlogn)
             </p>
 
             <p>
               <b>
-                I also have experience with:
+                У меня также есть опыт работы с:
               </b>
             </p>
 
@@ -91,8 +86,8 @@ const Skills = () => {
             </b>
 
             <p>
-              I studied the main course on which I work quite well and I know what are the pros and cons. I used most of
-              the tools from the react.js environment, in particular:
+              Я работаю достаточно давно, и знаю, каковы плюсы и минусы. Я использовал большую часть
+              инструменты из среды react.js, в частности:
             </p>
 
             <ul>
@@ -124,10 +119,10 @@ const Skills = () => {
             </b>
 
             <p>
-              Development on Node.js is also very interesting, I have already worked in combat projects on Node.js,
-              writing api on microserver architecture, I also had experience in creating one-time projects in which I
-              gained
-              experience:
+              Разработка на Node.js тоже очень интересна, я уже работал в боевых проектах на Node.js,
+              написав api по архитектуре микросервера, у меня также был опыт создания разовых проектов, в которых я
+              получил
+              опыт:
             </p>
 
             <ul>

@@ -5,32 +5,32 @@ import ContentBlock from "../../ContentBlock";
 
 const AboutMe = () => {
   return (
-      <ContentBlock title={'Обо мне'} icon={<UserIcon/>}>
+      <ContentBlock title={'About me'} icon={<UserIcon/>}>
         <ListItem>
           <p>
-            I easily find common language with the team. I love being in a development atmosphere and experienced
-            developers
-            Interested in full-featured development in particular Node.js interface technologies also interested in
-            reacting to native
-            and Electron.js and
+            Легко нахожу общий язык с коллективом. Мне нравится быть в атмосфере развития и испытывать
+            Разработчики
+            Заинтересованы в полнофункциональной разработке, в частности интерфейсных технологий Node.js, также заинтересованы в
+            реагируя на родной
+            и Electron.js и
             Flutter
-            if necessary he is ready to mentor the team.
+            в случае необходимости готов наставлять команду.
           </p>
           <ul>
-            <div> What do I expect from work:</div>
-            <li> - Experienced fellow developers who have a lot to learn</li>
-            <li> - A stream of projects that are not ashamed to boast of</li>
-            <li> - Well-established system of setting tasks (great if you work through CRM)</li>
-            <li> - Ability to apply new tools in projects (great if you regularly exchange knowledge / training)</li>
-            <li> - Human Relations</li>
-            <li> - Competitive wages</li>
+            <div> Чего я жду от работы: </div>
+            <li> - Опытные коллеги-разработчики, которым есть чему поучиться. </li>
+            <li> - поток проектов, которыми не стыдно похвастаться </li>
+            <li> - Отлаженная система постановки задач (отлично, если вы работаете через CRM) </li>
+            <li> - Возможность применять новые инструменты в проектах (отлично, если вы регулярно обмениваетесь знаниями / тренингами). </li>
+            <li> - Человеческие отношения </li>
+            <li> - Конкурентоспособная заработная плата. </li>
           </ul>
           <p>
-            Geographically I am now in Bishkek (Kyrgyzstan). Therefore preferred
-            the way to conduct an interview for me will be - a video call on Skype. However if a face-to-face interview
-            strictly necessary I can plan my trip to Moscow (much in advance).
-            You can write me in advance
-            in <a target={'blank'} href="https://join.skype.com/invite/s96cb3Y4FgAn">skype</a> {' or '}
+            Географически я сейчас нахожусь в Бишкеке (Кыргызстан). Поэтому предпочтительнее
+            Способ проведения собеседования для меня будет - видеозвонок по скайпу. Однако, если личное интервью
+            строго необходимо могу спланировать поездку в Москву (заранее).
+            Вы можете написать мне заранее
+            в <a target={'blank'} href="https://join.skype.com/invite/s96cb3Y4FgAn">skype</a> {' or '}
             <a target={'blank'} href="mailto:quadrad4@gmail.com">mail</a>{' or '}
             <a target={'blank'} href="https://t.me/Quadrad_s">telegram</a>.
           </p>
