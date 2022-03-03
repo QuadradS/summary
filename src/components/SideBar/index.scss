@@ -4,7 +4,6 @@
   background: $mainBlueColor;
   color: $whiteColor;
   width: 300px;
-  min-height: 100vh;
   box-shadow: 0 0 4px 2px #23151526;
   position: relative;
   margin-left: 30px;
@@ -74,5 +73,32 @@
     line-height: 22px;
     text-decoration: none;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    margin: 15px 15px 0;
+    padding-bottom: 20px;
+
+    &--user-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 30px auto;
+      object-fit: cover;
+      border: 1px solid #e3e3e354;
+      box-shadow: 0 0 4px 2px #23151526;
+    }
+
+    &--info {
+      width: 220px;
+      position: static;
+    }
+  }
+
+  .contact-block {
+    padding: 10px 30px;
   }
 }

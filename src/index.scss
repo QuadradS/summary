@@ -35,3 +35,9 @@ img {
   margin: auto;
   background: $lightGrayColor;
 }
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-wrap: wrap;
+  }
+}
