@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+
+.content-block {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  background: $whiteColor;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 2px #23151526;
+  border: 1px solid $lightGrayColor;
+
+  &--head {
+    display: flex;
+    align-items: center;
+
+    & svg {
+      width: 30px;
+      height: 30px;
+      fill: $lightGrayColor;
+    }
+  }
+
+  &--title {
+    width: calc(100% - 55px);
+    padding: 5px 15px 15px 0;
+    margin-left: 15px;
+    border-bottom: 1px solid $lightGrayColor;
+    font-size: 25px;
+    font-weight: 300;
+    color: $darkGrayColor;
+  }
+}
